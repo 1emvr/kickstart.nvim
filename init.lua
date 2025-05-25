@@ -99,6 +99,11 @@ vim.g.have_nerd_font = false
 
 -- Make line numbers default
 vim.o.number = true
+vim.o.relativenumber = true
+vim.o.wrap = false
+
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 -- vim.o.relativenumber = true
